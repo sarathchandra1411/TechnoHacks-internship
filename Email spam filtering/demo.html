@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .pricing-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .pricing-card:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .pricing-card h2 {
+            margin-top: 0;
+        }
+        .price {
+            font-size: 2em;
+            color: #2196F3;
+        }
+        .features {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            margin-bottom: 10px;
+        }
+        .buy-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="pricing-card">
+            <h2>Basic Plan</h2>
+            <p class="price">$19.99</p>
+            <ul class="features">
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <a href="#" class="buy-button">Buy Now</a>
+        </div>
+        <!-- More pricing cards can be added here -->
+    </div>
+</body>
+</html>
